@@ -8,7 +8,7 @@ end
 
 def print_first_directors_movie_titles
   db = directors_database
-  db = db[0][:movies].each{|i|
-  puts i[:title]
-  }
+  counter = 0 
+  while counter < db[0].length do
+    
 end
